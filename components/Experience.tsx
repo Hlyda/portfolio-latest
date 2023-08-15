@@ -10,6 +10,7 @@ const Dots = ({ count, active }) => (
   <div className="dot-container">
     {_.range(count).map(i => (
       <motion.div
+      key={i}
         className="dot"
         initial={false}
         animate={{
