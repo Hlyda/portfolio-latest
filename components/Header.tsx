@@ -47,18 +47,18 @@ export default function Header({}: Props) {
 
         {/* Social icons */}
         <SocialIcon
-          url="https://www.linkedin.com/in/nickk2305/"
+          url="https://www.linkedin.com/in/majid-benhenneda//"
           fgColor="#a9a9a9"
           bgColor="transparent"
           className="ml-3"
         />
         <SocialIcon
-          url="https://www.twitter.com/NickK2305"
+          url="https://twitter.com/Jidmaaaa"
           fgColor="#a9a9a9"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://github.com/Nick-h4ck3r"
+          url="https://github.com/Jidmaa"
           fgColor="#a9a9a9"
           bgColor="transparent"
         />

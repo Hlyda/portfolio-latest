@@ -23,7 +23,7 @@ export default function Projects({ data }: Props) {
             initial={{ opacity: 0.2 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true}}
             key={i}
             className="w-screen flex-shrink-0 snap-center flex flex-col items-center justify-center p-10 md:p-44 h-screen mt-10 md:mt-28"
           >

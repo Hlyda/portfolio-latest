@@ -31,8 +31,10 @@ export default function Contact({}: Props) {
         </h4>
 
         <div className="flex flex-wrap gap-6 justify-center font-outfit text-xl font-extralight text-gray-500 mt-14">
+   
+   
           <p className="hover:text-gray-300 duration-200">
-            <a href="https://youtube.com/@nickk2305">youtube</a>
+            <a href="https://twitter.com/Jidmaaaa">twitter</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -54,51 +56,7 @@ export default function Contact({}: Props) {
             </span>
           </p>
           <p className="hover:text-gray-300 duration-200">
-            <a href="https://blog.nikhilkadam.me/">blog</a>
-            <span className="inline-flex">
-              <svg
-                className="with-icon_icon__MHUeb"
-                data-testid="geist-icon"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="24"
-                style={{ color: "currentColor", width: "14px", height: "14px" }}
-              >
-                <path d="M7 17L17 7"></path>
-                <path d="M7 7h10v10"></path>
-              </svg>
-            </span>
-          </p>
-          <p className="hover:text-gray-300 duration-200">
-            <a href="https://twitter.com/NickK2305">twitter</a>
-            <span className="inline-flex">
-              <svg
-                className="with-icon_icon__MHUeb"
-                data-testid="geist-icon"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="24"
-                style={{ color: "currentColor", width: "14px", height: "14px" }}
-              >
-                <path d="M7 17L17 7"></path>
-                <path d="M7 7h10v10"></path>
-              </svg>
-            </span>
-          </p>
-          <p className="hover:text-gray-300 duration-200">
-            <a href="https://www.linkedin.com/in/nickk2305/">linkedin</a>
+            <a href="https://www.linkedin.com/in/Majid-Benhenneda">linkedin</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -121,7 +79,7 @@ export default function Contact({}: Props) {
           </p>
 
           <p className="hover:text-gray-300 duration-200">
-            <a href="https://github.com/Nick-h4ck3r">github</a>
+            <a href="https://github.com/Jidmaa">github</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -150,7 +108,7 @@ export default function Contact({}: Props) {
             <a href="mailto:nickkadam23@gmail.com" className="cursor-pointer">
               <span className="link link-underline link-underline-black">
                 {" "}
-                nickkadam23@gmail.com
+                majidbenhenneda@gmail.com
               </span>
             </a>
             <span className="inline-flex">
@@ -182,7 +140,7 @@ export default function Contact({}: Props) {
 
       <div className="text-sm bottom-10 items-center justify-center absolute flex font-outfit text-gray-500">
         <p>
-          website designed and developed by{" "}
+          Credit goes to {" "}
           <span className="underline decoration-blue-900">
             <a
               target={"_blank"}
@@ -212,6 +170,7 @@ export default function Contact({}: Props) {
             <path d="M7 7h10v10"></path>
           </svg>
         </span>
+        for the base repo 
       </div>
     </div>
   );

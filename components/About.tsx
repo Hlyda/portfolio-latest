@@ -60,43 +60,8 @@ export default function About({}: Props) {
           with a passion for building scalable and user-friendly web
           applications. I love to create elegant solutions to complex problems.
           <br />
-          <br />I am also the founder of{" "}
-          <span className="text-blue-500 font-semibold">
-            <a
-              href="https://instagram.com/localhostcoders"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              localhostcoders
-              <span className="inline-flex text-white">
-                <svg
-                  className="with-icon_icon__MHUeb"
-                  data-testid="geist-icon"
-                  fill="none"
-                  height="24"
-                  shapeRendering="geometricPrecision"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  style={{
-                    color: "currentColor",
-                    width: "14px",
-                    height: "14px",
-                  }}
-                >
-                  <path d="M7 17L17 7"></path>
-                  <path d="M7 7h10v10"></path>
-                </svg>
-              </span>
-            </a>
-          </span>
-          , a community dedicated to empowering aspiring developers.
-          <br /> <br /> Alongside my tech endeavors, I am an avid reader and
-          enjoy delving into subjects such as psychology and philosophy while
-          enjoying a{" "}
+      
+          <br /> <br /> Alongside my tech endeavors, I love gaming and music, I am also always up for a {" "}
           <span className="text-blue-500 font-semibold">
             fresh cup of coffee!
           </span>

@@ -32,7 +32,6 @@ function Skills({}: Props) {
         <Skill imgsrc="/skillsLogos/git.png" directionLeft/>
         <Skill imgsrc="/skillsLogos/github.png" directionLeft/>
         <Skill imgsrc="/skillsLogos/firebase.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/java.png" />
         <Skill imgsrc="/skillsLogos/kuber.png" />
         <Skill imgsrc="/skillsLogos/linux.png" />
         <Skill imgsrc="/skillsLogos/mongodb.png" />
@@ -41,7 +40,6 @@ function Skills({}: Props) {
         <Skill imgsrc="/skillsLogos/postman.png" />
         <Skill imgsrc="/skillsLogos/python.png" />
         <Skill imgsrc="/skillsLogos/react.png" />
-        <Skill imgsrc="/skillsLogos/sanityio.png" />
         <Skill imgsrc="/skillsLogos/tailwind.png" />
         <Skill imgsrc="/skillsLogos/typescript.png" />
 
