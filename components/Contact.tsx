@@ -15,7 +15,7 @@ export default function Contact({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:nickkadam23@gmail.com?subject=${formData.subject}&body=${formData.message} - ${formData.name} - ${formData.email}`;
+    window.location.href = `mailto:majidbenhenneda@gmail.com?subject=${formData.subject}&body=${formData.message} - ${formData.name} - ${formData.email}`;
   };
 
   return (
@@ -105,7 +105,7 @@ export default function Contact({}: Props) {
         <h5 className="mt-28">
           <p className="text-xl font-md font-outfit text-gray-200 md:ml-5">
             or drop a mail at{" "}
-            <a href="mailto:nickkadam23@gmail.com" className="cursor-pointer">
+            <a href="mailto:majidbenhenneda@gmail.com" className="cursor-pointer">
               <span className="link link-underline link-underline-black">
                 {" "}
                 majidbenhenneda@gmail.com

@@ -45,7 +45,7 @@ export const Experience = () => {
     const offset = info.offset.x
     if (Math.abs(offset) > 20) {
       const direction = offset < 0 ? 1 : -1
-      setActive(active => _.clamp(active + direction, 0, 3 - 1))
+      setActive(active => _.clamp(active + direction, 0, 4 - 1))
     }
   }
 
@@ -88,9 +88,18 @@ export const Experience = () => {
     startDate="2022"
     endDate="2023"
   />
+     <ExperienceCard
+    clogo="/companyLogo/alpha.png"
+    title="Full Stack Developer"
+    company="at Alpha Computers/Smart Drilling"
+    point1="Maintenance of notarial full stack application"
+    point2="Update of the frontend and backend to meet clients needs "
+    startDate="2023"
+    endDate=""
+  />
         </motion.div>
 
-        <Dots count={3} active={active} />
+        <Dots count={4} active={active} />
       </div>
       <div style={{ height: 700 }} />
     </>
