@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
+import BaseImage from "./BaseImage";
 
 type Props = {};
 
@@ -39,7 +40,7 @@ export default function About({ }: Props) {
         viewport={{
           once: true,
         }} */}
-      <Image
+      <BaseImage
         width={350}
         height={450}
         src="/profilePic.jpg"
@@ -52,18 +53,18 @@ export default function About({ }: Props) {
           $: /whoami
         </h4>
         <p className="text-sm md:text-base lg:text-lg lg:mt-4 font-light px-4 md:px-7 pt-3 font-outfit">
-          Bienvenue sur mon espace digital !
-          <br />
+
           <br /> Je suis{" "}
           <span className="text-blue-500 font-semibold">
             Ingénieure IA
           </span>{" "}
           et {" "}
           <span className="text-blue-500 font-semibold">
-            Développeuse Web
+            Développeuse Web.
           </span>{" "}
-          with a passion for building scalable and user-friendly web
-          applications. I love to create elegant solutions to complex problems.
+          <br />
+          <br />
+          De la data science à la création de sites performants, je conçois des solutions efficaces, scalables et élégantes. J’interviens sur des projets IA concrets intégrant LLMs, RAG, LangChain, automatisation et gouvernance des données. Je développe aussi des plateformes web sur mesure en France et à l’international.
           <br />
 
           <br /> <br /> Alongside my tech endeavors, I love gaming and music, I am also always up for a {" "}
