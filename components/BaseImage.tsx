@@ -1,13 +1,11 @@
 // components/BaseImage.tsx
-import Image, { ImageProps } from 'next/image';
-import { useRouter } from 'next/router';
+import Image, { ImageProps } from 'next/image'
 
 type BaseImageProps = Omit<ImageProps, 'src'> & {
     src: string;
 };
 
 export default function BaseImage({ src, ...rest }: BaseImageProps) {
-    const { basePath } = useRouter();
-
-    return <Image src={`${basePath}${src}`} {...rest} />;
+    const repoBasePath = process.env.NODE_ENV === 'production' ? '/portfolio-latest' : '';
+    return <Image src={`${repoBasePath}${src}`} {...rest} />;
 }
