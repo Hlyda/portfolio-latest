@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
+const repoName = 'portfolio-latest';
 const nextConfig = {
   reactStrictMode: true,
+  basePath: isGithubPages ? `/${repoName}` : '',
+  assetPrefix: isGithubPages ? `/${repoName}/` : '',
   output: 'export',
   typescript: {
     // !! WARN !!
