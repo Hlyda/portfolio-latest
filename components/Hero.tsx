@@ -9,13 +9,13 @@ const imgURl =
 
 type Props = {};
 
-export default function Hero({}: Props) {
+export default function Hero({ }: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hey, Majid Benhenneda here.",
-      "I build things for the web.",
-      "I participate to awesome projects.",
-      "I learn new things everyday.",
+      "Bonjour, Je suis Linda.",
+      "J'apprends, j'innove, je progresse. Tous les jours.",
+      "Je contribue à des projets à la croisée de l'IA et du Web.",
+
     ],
     loop: true,
     delaySpeed: 1000,
@@ -27,13 +27,13 @@ export default function Hero({}: Props) {
         width={200}
         height={200}
         className="relative h-32 w-32 rounded-full mx-auto object-cover"
-        src="/heroImage.jpeg"
+        src="/profilePic.jpg"
         alt="nikhil kadam profile image"
       />
 
       <div className="z-20">
-        <h2 className="text-sm text-gray-400 uppercase tracking-[8px] md:tracking-[15px] pb-2 font-outfit">
-          Full-stack developer
+        <h2 className="text-sm text-gray-400 uppercase tracking-[18px] md:tracking-[15px] pb-2 font-outfit">
+          Ingénieure IA & Développeuse Web
         </h2>
         <h1 className="pt-2 text-3xl md:text-4xl lg:text-6xl font-semibold px-16">
           <span className="mr-3 font-outfit">{text}</span>

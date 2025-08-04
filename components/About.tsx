@@ -4,7 +4,7 @@ import Image from "next/image";
 
 type Props = {};
 
-export default function About({}: Props) {
+export default function About({ }: Props) {
   return (
     <motion.div
       initial={{
@@ -52,15 +52,20 @@ export default function About({}: Props) {
           $: /whoami
         </h4>
         <p className="text-sm md:text-base lg:text-lg lg:mt-4 font-light px-4 md:px-7 pt-3 font-outfit">
-          Welcome to my digital abode! <br />
-          <br /> I am a{" "}
+          Bienvenue sur mon espace digital !
+          <br />
+          <br /> Je suis{" "}
           <span className="text-blue-500 font-semibold">
-            full stack developer
+            Ingénieure IA
+          </span>{" "}
+          et {" "}
+          <span className="text-blue-500 font-semibold">
+            Développeuse Web
           </span>{" "}
           with a passion for building scalable and user-friendly web
           applications. I love to create elegant solutions to complex problems.
           <br />
-      
+
           <br /> <br /> Alongside my tech endeavors, I love gaming and music, I am also always up for a {" "}
           <span className="text-blue-500 font-semibold">
             fresh cup of coffee!
