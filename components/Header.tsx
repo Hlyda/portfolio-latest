@@ -5,7 +5,7 @@ import Image from "next/image";
 
 type Props = {};
 
-export default function Header({}: Props) {
+export default function Header({ }: Props) {
   return (
     <header className="sticky top-0 py-3 -mx-6 md:p-3 flex items-start justify-around md:mx-auto z-50 xl:items-center backdrop-blur-sm bg-slate-800/30 ">
       <motion.div
@@ -47,18 +47,14 @@ export default function Header({}: Props) {
 
         {/* Social icons */}
         <SocialIcon
-          url="https://www.linkedin.com/in/majid-benhenneda//"
+          url="https://www.linkedin.com/in/linda-hind-selab/"
           fgColor="#a9a9a9"
           bgColor="transparent"
           className="ml-3"
         />
+
         <SocialIcon
-          url="https://twitter.com/Jidmaaaa"
-          fgColor="#a9a9a9"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://github.com/Jidmaa"
+          url="https://github.com/Hlyda"
           fgColor="#a9a9a9"
           bgColor="transparent"
         />
