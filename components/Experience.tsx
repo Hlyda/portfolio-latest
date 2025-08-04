@@ -86,7 +86,7 @@ export const Experience = () => {
             company="LogiSpear • Paris, France"
             point1="Réalisation d'audits IA pour PME : identification des besoins, évaluation de la maturité technologique et détection
 d'opportunités d'automatisation.."
-            point2="Conception de stratégies IA sur mesure : choix d’outils (LLM, RAG, chatbots…), cadrage des cas d’usage et accompagnement à
+            point2="Conception de stratégies IA sur mesure : choix d'outils (LLM, RAG, chatbots…), cadrage des cas d'usage et accompagnement à
 l'adoption."
             point3="Contribution au projet open source LangchainDoc : visualisation de documentation LangChain, extraction de concepts,
 structuration via LangGraph."
