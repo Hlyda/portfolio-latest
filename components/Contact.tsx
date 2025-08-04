@@ -27,7 +27,6 @@ export default function Contact({ }: Props) {
       <div className="flex flex-col mt-14">
         <h4 className="text-4xl font-semibold text-center font-outfit">
           Retrouve-moi sur{" "}
-          <span className="underline decoration-blue-600">socials.</span>
         </h4>
 
         <div className="flex flex-wrap gap-6 justify-center font-outfit text-xl font-extralight text-gray-500 mt-14">
