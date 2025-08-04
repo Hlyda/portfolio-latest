@@ -20,9 +20,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name : Set env variable for gh pages
         run: echo "GITHUB_PAGES=true" >> $GITHUB_ENV
-
+      
+      - name: Set NEXT_PUBLIC_BASE_PATH
+        run: echo "NEXT_PUBLIC_BASE_PATH=/${{ github.event.repository.name }}" >> $GITHUB_ENV
+      
       - name: Detect package manager
         id: detect-package-manager
         run: |
