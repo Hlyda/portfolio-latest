@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
-import {Experience} from "@/components/Experience";
+import { Experience } from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Head from "next/head";
@@ -12,10 +12,10 @@ export default function Home({ data }: any) {
   return (
     <div id="mainBody" className="bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-transparent scrollbar-thumb-slate-500/20 scrollbar-thin">
       <Head>
-        <title>Majid Benhenneda</title>
-        <meta name="description" content="Majid Benhenneda is a passionate web developer striving to give his all on every project." />
+        <title>Linda Hind SELAB</title>
+        <meta name="description" content="Linda Hind SELAB is a passionate web developer striving to give his all on every project." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico"/>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* Header */}
@@ -32,7 +32,7 @@ export default function Home({ data }: any) {
       </section>
 
       {/* Experience */}
-      <section id="experience" className="snap-center " style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
+      <section id="experience" className="snap-center " style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
         <Experience />
       </section>
 

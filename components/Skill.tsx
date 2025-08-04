@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import BaseImage from "./BaseImage";
 
 type Props = {
   directionLeft?: boolean;
@@ -16,7 +17,7 @@ export default function Skill({ imgsrc, directionLeft }: Props) {
         transition={{ duration: 1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
-        <Image
+        <BaseImage
           width={80}
           height={80}
           src={imgsrc as string}

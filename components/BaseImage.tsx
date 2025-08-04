@@ -6,6 +6,6 @@ type BaseImageProps = Omit<ImageProps, 'src'> & {
 };
 
 export default function BaseImage({ src, ...rest }: BaseImageProps) {
-    const repoBasePath = '/portfolio-latest'
+    const repoBasePath = process.env.NODE_ENV === 'production' ? '/portfolio-latest' : '';
     return <Image src={`${repoBasePath}${src}`} {...rest} />;
 }

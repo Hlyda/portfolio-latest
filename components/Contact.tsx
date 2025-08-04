@@ -11,11 +11,11 @@ type Inputs = {
 
 type Props = {};
 
-export default function Contact({}: Props) {
+export default function Contact({ }: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:majidbenhenneda@gmail.com?subject=${formData.subject}&body=${formData.message} - ${formData.name} - ${formData.email}`;
+    window.location.href = `mailto:selablindahind@gmail.com?subject=${formData.subject}&body=${formData.message} - ${formData.name} - ${formData.email}`;
   };
 
   return (
@@ -26,37 +26,16 @@ export default function Contact({}: Props) {
 
       <div className="flex flex-col mt-14">
         <h4 className="text-4xl font-semibold text-center font-outfit">
-          connect with me on{" "}
+          Retrouve-moi sur{" "}
           <span className="underline decoration-blue-600">socials.</span>
         </h4>
 
         <div className="flex flex-wrap gap-6 justify-center font-outfit text-xl font-extralight text-gray-500 mt-14">
-   
-   
+
+
+
           <p className="hover:text-gray-300 duration-200">
-            <a href="https://twitter.com/Jidmaaaa">twitter</a>
-            <span className="inline-flex">
-              <svg
-                className="with-icon_icon__MHUeb"
-                data-testid="geist-icon"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="24"
-                style={{ color: "currentColor", width: "14px", height: "14px" }}
-              >
-                <path d="M7 17L17 7"></path>
-                <path d="M7 7h10v10"></path>
-              </svg>
-            </span>
-          </p>
-          <p className="hover:text-gray-300 duration-200">
-            <a href="https://www.linkedin.com/in/Majid-Benhenneda">linkedin</a>
+            <a href="https://www.linkedin.com/in/linda-hind-selab/">linkedin</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -79,7 +58,7 @@ export default function Contact({}: Props) {
           </p>
 
           <p className="hover:text-gray-300 duration-200">
-            <a href="https://github.com/Jidmaa">github</a>
+            <a href="https://github.com/Hlyda">github</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -104,12 +83,11 @@ export default function Contact({}: Props) {
 
         <h5 className="mt-28">
           <p className="text-xl font-md font-outfit text-gray-200 md:ml-5">
-            or drop a mail at{" "}
-            <a href="mailto:majidbenhenneda@gmail.com" className="cursor-pointer">
+            ou contacte-moi par mail à :{" "}
+            <a href="mailto:selablindahind@gmail.com" className="cursor-pointer">
               <span className="link link-underline link-underline-black">
                 {" "}
-                majidbenhenneda@gmail.com
-              </span>
+                selablindahind@gmail.com              </span>
             </a>
             <span className="inline-flex">
               <svg
@@ -138,7 +116,7 @@ export default function Contact({}: Props) {
         </h5>
       </div>
 
-      <div className="text-sm bottom-10 items-center justify-center absolute flex font-outfit text-gray-500">
+      {/* <div className="text-sm bottom-10 items-center justify-center absolute flex font-outfit text-gray-500">
         <p>
           Credit goes to {" "}
           <span className="underline decoration-blue-900">
@@ -170,8 +148,8 @@ export default function Contact({}: Props) {
             <path d="M7 7h10v10"></path>
           </svg>
         </span>
-        for the base repo 
-      </div>
+        for the base repo
+      </div> */}
     </div>
   );
 }

@@ -8,9 +8,10 @@ import ExperienceCard from './ExperienceCard';
 
 const Dots = ({ count, active }) => (
   <div className="dot-container">
+
     {_.range(count).map(i => (
       <motion.div
-      key={i}
+        key={i}
         className="dot"
         initial={false}
         animate={{
@@ -19,6 +20,8 @@ const Dots = ({ count, active }) => (
         }}
       />
     ))}
+
+
   </div>
 )
 
@@ -37,9 +40,9 @@ export const Experience = () => {
   const drag = useMotionValue(0)
 
 
-  const width = constraintsRef.current && constraintsRef.current.offsetWidth 
+  const width = constraintsRef.current && constraintsRef.current.offsetWidth
 
-  
+
 
   const dragEndHandler = (event, info) => {
     const offset = info.offset.x
@@ -62,44 +65,38 @@ export const Experience = () => {
           }}
         >
           <ExperienceCard
-    clogo="/companyLogo/bswag.jpg"
-    title="Freelance Web Developer  "
-    company="at Brandswaggin"
-    point1="Contributed to a variety of websites, ranging from Wordpress projects to full stack React projects from scratch"
-    point2="Elaborated and engineered the Mother Lode Job Training californian state agency tool."
-    startDate="2018"
-    endDate="2023"
-  />
-        <ExperienceCard
-    clogo="/companyLogo/neo.jpg"
-    title="Full Stack Developer"
-    company="at Neo-Fintech"
-    point1="Participated in the development and engineering of the KIOSTORE tool (dashboard, ecommerce themes, CMS... ) with React, Flask, NextJS, Kubernetees.."
-    point2="Team lead for the e-commerce frontend team of the startup"
-    startDate="2020"
-    endDate="2022"
-  />
-   <ExperienceCard
-    clogo="/companyLogo/mps.jpg"
-    title="Frontend Developer"
-    company="at Maghreb Positionning Services"
-    point1="Developed the DAS AUTOMOTIVE AM Ecommerce project from scratch with React, Material UI, NextJS.."
-    point2="Tackled both the dashboard and client aspect of the project"
-    startDate="2022"
-    endDate="2023"
-  />
-     <ExperienceCard
-    clogo="/companyLogo/alpha.png"
-    title="Full Stack Developer"
-    company="at Alpha Computers/Smart Drilling"
-    point1="Maintenance of notarial full stack application"
-    point2="Update of the frontend and backend to meet clients needs "
-    startDate="2023"
-    endDate=""
-  />
+            clogo="/companyLogo/bswag.jpg"
+            title="Développeuse Web Freelance "
+            company="Brandswaggin • New  Jersey, USA"
+            point1="Réalisation de projets digitaux à échelles variées, allant de sites vitrines à des
+                            plateformes e-commerce, en utilisant des CMS comme WordPress, Shopify, Wix et Webflow.
+                            Travail en équipe avec des profils divers (designers, développeurs, chefs de projet) dans
+                            une dynamique collaborative et internationale."
+            point2="Travail en équipe avec des profils divers (designers, développeurs, chefs de projet) dans
+                            une dynamique collaborative et internationale."
+            point3="Refonte du site web de l'agence dans le cadre d'un projet interne, avec une nouvelle charte graphique modernisée et adaptée aux standards actuels.
+
+"
+            startDate="Juin 2023"
+            endDate=" Septembre 2024"
+          />
+          <ExperienceCard
+            clogo="/companyLogo/logispear.png"
+            title="Ingénieure IA"
+            company="LogiSpear • Paris, France"
+            point1="Réalisation d'audits IA pour PME : identification des besoins, évaluation de la maturité technologique et détection
+d'opportunités d'automatisation.."
+            point2="Conception de stratégies IA sur mesure : choix d’outils (LLM, RAG, chatbots…), cadrage des cas d’usage et accompagnement à
+l'adoption."
+            point3="Contribution au projet open source LangchainDoc : visualisation de documentation LangChain, extraction de concepts,
+structuration via LangGraph."
+            startDate=" Mai"
+            endDate=" Août 2025"
+          />
+
         </motion.div>
 
-        <Dots count={4} active={active} />
+        <Dots count={2} active={active} />
       </div>
       <div style={{ height: 700 }} />
     </>

@@ -4,7 +4,7 @@ import Skill from "./Skill";
 
 type Props = {};
 
-function Skills({}: Props) {
+function Skills({ }: Props) {
   return (
     <motion.div
       // initial={{ opacity: 0 }}
@@ -23,16 +23,15 @@ function Skills({}: Props) {
       <div className="pt-20 grid grid-cols-4 gap-5 md:gap-6 lg:gap-7 md:grid-cols-5 lg:grid-cols-6 md:pt-28">
         <Skill imgsrc="/skillsLogos/html.png" directionLeft />
         <Skill imgsrc="/skillsLogos/css.png" directionLeft />
-        <Skill imgsrc="/skillsLogos/js.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/bootstrap.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/c.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/docker.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/express.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/framer.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/git.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/github.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/firebase.png" directionLeft/>
-        <Skill imgsrc="/skillsLogos/kuber.png" />
+        <Skill imgsrc="/skillsLogos/js.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/bootstrap.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/c.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/docker.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/Langchain.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/git.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/github.png" directionLeft />
+        <Skill imgsrc="/skillsLogos/firebase.png" directionLeft />
+
         <Skill imgsrc="/skillsLogos/linux.png" />
         <Skill imgsrc="/skillsLogos/mongodb.png" />
         <Skill imgsrc="/skillsLogos/next-js.png" />
@@ -43,7 +42,7 @@ function Skills({}: Props) {
         <Skill imgsrc="/skillsLogos/tailwind.png" />
         <Skill imgsrc="/skillsLogos/typescript.png" />
 
-        
+
       </div>
     </motion.div>
   );
