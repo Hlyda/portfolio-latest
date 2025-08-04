@@ -5,6 +5,9 @@ const nextConfig = {
   basePath: `/${repoName}`,
   assetPrefix: `/${repoName}/`,
   output: 'export',
+  images: {
+    unoptimized: true, // ← Add this line!
+  },
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
